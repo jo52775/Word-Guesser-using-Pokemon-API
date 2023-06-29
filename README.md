@@ -1,5 +1,5 @@
 # Word-Guesser-using-Pokemon-API
-This Python project uses PokeAPI V2 (Details found at https://pokeapi.co/). Firstly, every time the project is run, a random ID from the API will be selected, therefore
+This Python project uses a public API called PokeAPI V2 (Details found at https://pokeapi.co/). Firstly, every time the project is run, a random ID from the API will be selected, therefore
 increasing the ambiguity. In a hangman style format, users are allowed six chances to guess a letter that might be in the hidden word. Each turn, users are given the
 opportunity to guess the word outright. If the word is guessed correctly, the user wins and the game ends. Otherwise, the user will keep guessing until the amount of chances runs out. 
 Important notes from the code:
